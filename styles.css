@@ -1,0 +1,115 @@
+/* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(213, 242, 248);
+    margin: 0; /* Remove margin to eliminate space at the top */
+  }
+  
+  .container {
+    max-width: 100%;
+  }
+  
+  .product-card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+  }
+  
+  .feature img {
+    max-width:100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-item img {
+    max-height: 400px;
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  /* Custom styles for first section */
+  .first-section {
+    display: flex;
+  }
+  
+  .image-section {
+    flex: 1;
+    width: 50%;
+    padding-right: 10px;
+    /* Add spacing between image and description */
+  }
+  
+  .image-section img {
+    width: 100%;
+  }
+  
+  .description-section {
+    flex: 1;
+    width: 50%;
+    padding-left: 10px;
+    /* Add spacing between image and description */
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .search-bar {
+    float: left;
+  }
+  
+  .login-btn {
+    float: right;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position:bottom;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  
